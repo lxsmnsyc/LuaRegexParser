@@ -24,7 +24,7 @@ local SharedAtom = (require "LuaRegexParser.src.rule.sharedAtom").parse
 local Literal = (require "LuaRegexParser.src.rule.literal").parse
 local CharacterClass = (require "LuaRegexParser.src.rule.characterClass").parse
 local Capture = (require "LuaRegexParser.src.rule.capture").parse
-
+local NonCapture = (require "
 local Comment = (require "LuaRegexParser.src.rule.comment").parse
 local Option = (require "LuaRegexParser.src.rule.option").parse
 
